@@ -112,6 +112,7 @@ main .conteudo img {
 }
 .projetos a {
     width: 30%;
+    text-decoration: none;
 }
 .projeto:hover {
     border: 1px solid white;
@@ -190,4 +191,15 @@ label {
 .foto img {
     width: 100%;
 }
-
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
